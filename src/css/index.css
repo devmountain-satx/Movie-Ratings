@@ -1,0 +1,460 @@
+.header {
+    background-color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+.navbar a {
+    color: #333;
+    text-decoration: none;;
+}
+.navbar a:hover {
+    color: #7357f0;
+}
+.logo > a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding-inline-start: 0%;
+}
+.navigate, ul, li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-inline-start: 0%;
+}
+.nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.2rem;
+    padding-inline-start: 0%;
+}
+.nav-buttons > a > span {
+    color: #7357f0;
+    font-weight: bold;
+}
+.nav-buttons > a > span:hover {
+    color: #333;
+}
+.nav-buttons > form > button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    background-color: transparent;
+}
+.nav-buttons > form > button:hover {
+    color: #7357f0;
+}
+.hero {
+    background-color: #fff;
+    padding: 32px;  
+    overflow: hidden;
+}
+.hero a {
+    color: #333;
+    text-decoration: none;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 0 12px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.hero-text > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #7357f0, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    width: 70%;
+}
+.hero-text > p {
+    font-size: 1.5rem;
+    font-weight: semi-bold;
+    width: 70%;
+}
+.hero-text > p > span {
+    display: block;
+    background: linear-gradient(90deg, #7357f0, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 12px;
+}
+.hero-text > p > span:hover {
+    background: linear-gradient(90deg, #333, #7357f0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.hero-button > button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+.hero-button > button:hover {
+    background-color: #eee;
+    color: #7357f0;
+}
+.hero-image {
+    width: 100%;
+}
+.hero-image > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.hero-image > img:hover {
+    filter: grayscale(100%);
+}
+
+.movie-container {
+    background-color: #fff;
+    padding: 32px;
+}
+.movie-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
+.movie-header > h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 12px;
+    background: linear-gradient(90deg, #7357f0, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.movie-header > p {
+    font-size: 1.5rem;
+    font-weight: semi-bold;
+    text-align: center;
+    padding: 0 12px;
+    width: 70%;
+    color: #333;
+}
+.movie-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
+.movie-list > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.movie-list > ul > li {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 4px;
+}
+.movie-list > ul > li > a {
+    color: #333;
+    text-decoration: none;
+}
+.movie-list > ul > li > a:hover {
+    color: #7357f0;
+    filter: brightness(1.2);
+}
+
+.movie-details {
+    background-color: #fff;
+    padding: 32px;
+}
+.movie-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 100%;
+}
+.movie-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 12px;
+    width: 40%;
+}
+.movie-card-body > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #7357f0, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.movie-card-body > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.movie-card-body > p {
+    font-size: 1.5rem;
+    font-weight: semi-bold;
+    color: #333;
+}
+.movie-card-body > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 12px;
+}
+.movie-card-body > form > label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+.movie-card-body > form > select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+}
+.movie-card-body > form > select > option {
+    font-size: 1.2rem;
+    color: #333;
+}
+.movie-card-body > form > button {
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+.movie-card-body > form > button:hover {
+    background-color: #fff;
+}
+
+.movie-card-image {
+    width: 40%;
+}
+.movie-card-image > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.movie-card-image > img:hover {
+    filter: grayscale(100%);
+}
+.login-container {
+    background-color: #fff;
+    padding: 32px;
+}
+.login-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
+.login-text > h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 12px;
+    background: linear-gradient(90deg, #7357f0, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.login-text > p {
+    font-size: 1.5rem;
+    font-weight: semi-bold;
+    text-align: center;
+    padding: 0 12px;
+    width: 70%;
+    color: #333;
+}
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 32px;
+}
+.login-form > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+    width: 50%;
+}
+.login-form > form > input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+}
+
+.login-form > form > button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: #fff;
+}
+.login-form > form > button:hover {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+.login-form > form > label {
+    font-size: 1.2rem;
+    font-weight: semi-bold;
+    text-align: center;
+    padding: 0 12px;
+    width: 70%;
+    color: #333;
+}
+
+.error-container {
+    background-color: #fff;
+    padding: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+    height: 100vh;
+}
+.error-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
+.error-message > h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 12px;
+    background: linear-gradient(90deg, #7357f0, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.error-message > p {
+    font-size: 1.5rem;
+    font-weight: semi-bold;
+    text-align: center;
+    padding: 0 12px;
+    width: 70%;
+    color: #333;
+}
+.error-message > p > i {
+    display: block;
+    background: linear-gradient(90deg, #7357f0, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 12px;
+}
+.error-message > button {
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+.error-message > button:hover {
+    background-color: #fff;
+    color: #7357f0;
+}
+.error-image {
+    width: 100%;
+}
+.error-image > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.rating-container {
+    background-color: #fff;
+    padding: 32px;
+}
+.rating-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
+.rating-header > h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 12px;
+    background: linear-gradient(90deg, #7357f0, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.rating-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
+.rating-list > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rating-list > ul > li {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 4px;
+}
+.rating-list > ul > li > a {
+    color: #333;
+    text-decoration: none;
+}
+.rating-list > ul > li > a:hover {
+    color: #7357f0;
+    filter: brightness(1.2);
+}
+
+
